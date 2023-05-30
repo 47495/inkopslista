@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Round" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
     <script src="js/lista.js"></script>
+    <script src="js/varor.js"></script>
 
     <title>Document</title>
 </head>
@@ -18,52 +19,18 @@
     <main>
        
         <table>
-
-            <!--DUMMY DATA DELETE AFTER JS-->
-            <tr>
-                <td><input type="checkbox"></td>
-                <td>Ägg</td>
-                <td><i class="material-icons">edit</i></td>
-                <td><i class="material-icons">delete</i></td>
-            </tr>
-            <tr>
-                <td><input type="checkbox"></td>
-                <td>Tonfisk</td>
-                <td><i class="material-icons">edit</i></td>
-                <td><i class="material-icons">delete</i></td>
-            </tr>
-            <tr><td><input type="checkbox"></td>
-                <td>Havregryn</td>
-                <td><i class="material-icons">edit</i></td>
-                <td><i class="material-icons">delete</i></td>
-            </tr>
-            <tr><td><input type="checkbox"></td>
-                <td>Äpplen</td>
-                <td><i class="material-icons">edit</i></td>
-                <td><i class="material-icons">delete</i></td>
-            </tr>
-            <tr><td><input type="checkbox"></td>
-                <td>Mjölk</td>
-                <td><i class="material-icons">edit</i></td>
-                <td><i class="material-icons">delete</i></td>
-            </tr>
-            <tr><td><input type="checkbox"></td>
-                <td>Tonfisk</td>
-                <td><i class="material-icons">edit</i></td>
-                <td><i class="material-icons">delete</i></td>
-            </tr>
-            <!--DUMMY DATA DELETE AFTER JS-->
-
+            <tbody id="varatable"></tbody>
+           
         </table>
+
         <form>
-            <input type="text" id="varainput" size="20%">
+            <input type="text" id="varainput">
             <button type="button" id="varabutton" >lägg till</button>
         </form>
 
-
         <div id="deletebuttons">
-            <button id="valdabuttons">radera markerat</button>
-            <button id="allabuttons">radera allt </button>
+            <button id="valdaButton">radera markerat</button>
+            <button id="allaButton">RADERA ALLT</button>
         </div>
 </body>
 </html>

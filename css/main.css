@@ -1,22 +1,15 @@
 header {
-    position:fixed;
-    height:20%; width:100%; top:0%;
     background-color : rgb(255, 126, 126);
     border : 3px solid rgb(252, 112, 151);
     color : white;
     text-align:center;
+    margin-bottom: 5px;
 } 
 h1 {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
-main {
-    position: absolute;
-    top: 38%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 
- }
  
  input[type="checkbox"] {
     -webkit-appearance: none;
@@ -51,6 +44,60 @@ main {
   }
 
   td, tr {
-    border-bottom: 3px dashed #000000;
+    border-bottom: 4px dashed #000000;
+   
   }
-  
+  table {
+  margin: auto;
+  margin-bottom: 10px;
+  width: 70%;
+  font-size: 26px;
+  }
+td {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  font-size: 150%;
+}
+
+#deletebuttons{
+  display: flex;
+  justify-content: center;
+}
+
+
+#valdaButton {
+  background-color: #5cb85cab;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight:bold;
+  padding:10px;
+  border-radius: 10px;
+  color:#ffffff;
+}
+#allaButton {
+  background-color: #ff0000ab;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight:bold;
+margin-left: 10px;
+  border-radius:10px;
+  color: #ffffff;
+}
+
+#varabutton {
+  background-color:rgb(255, 126, 126);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight:bold;
+  border-radius:10px;
+  font-size: 22px;
+  color:#ffffff;
+}
+
+#varainput {
+ width:30%;
+ margin-left: 1%;
+ font-size: 22px;
+
+}
+form {
+text-align: center;
+margin-bottom: 10px;
+}
